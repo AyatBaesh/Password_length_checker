@@ -1,0 +1,57 @@
+:root{/* Primary colors*/
+--primary-1: #D07A1C;
+--primary-2: #E79E4F;
+--primary-3: #E1B98E;
+--primary-4: #F8D9B7;
+--primary-5: #FCF0E3;
+
+/* Neutral colors */
+--neutral-1: #2c2c2c;
+--neutral-2: #434343;
+--neutral-3: #94868b;
+--neutral-4: #d9cfd3;
+--neutral-5: #f2ecee;
+}
+
+/* GENERAL STYLING */
+body{
+    background-color: var(--neutral-5);
+}
+*{
+    margin:0;
+    padding:0;
+}
+.main-container{
+    max-width:1290px;
+    /* padding:1.5em; */
+}
+h1{
+    font-size: 36px;
+}
+
+/* p{
+    font-size: 24px;
+    padding: 0.5em;
+} */
+/* NAVBAR */
+.navbar{
+    padding: 1.5em;
+    display:flex;
+    box-shadow:  0px 5px 10px 0px gray;
+    background-color: var(--neutral-5);
+}
+
+/* FORMS */
+.password_form{
+    font-size:24px;
+    padding: 0.5em 1.5em;
+}
+.password-input{
+    min-height:20px;
+    min-width:200px;
+    font-size:24px;
+    padding:0.25em 1.5em;
+    margin:0.25em 0;
+}
+
+
