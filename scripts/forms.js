@@ -1,7 +1,8 @@
 
 
 export function passwordLengthCheck(password){
-    if(password.length >= 10){
+    let trimmed_password = password.trim();
+    if(trimmed_password.length >= 10){
         
         return true;
     }else{
